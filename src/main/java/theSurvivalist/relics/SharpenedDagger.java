@@ -29,7 +29,7 @@ public class SharpenedDagger extends CustomRelic {
     }
 
     public void onExitCloseRange() {
-        addToBot(new ReducePowerAction(AbstractDungeon.player, AbstractDungeon.player, StrengthPower.POWER_ID, -3));
+        addToBot(new ReducePowerAction(AbstractDungeon.player, AbstractDungeon.player, StrengthPower.POWER_ID, 3));
     }
 
     @Override
