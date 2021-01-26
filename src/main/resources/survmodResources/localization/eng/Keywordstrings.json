@@ -1,0 +1,88 @@
+[
+  {
+    "PROPER_NAME": "Distance",
+    "NAMES": [
+      "distance"
+    ],
+    "DESCRIPTION": "Reduces incoming damage by 10% each, up to 7. Reduced by 2 each turn. You are in Close Range at Distance 0-2, Mid Range at distance 3-6, and Long Range at 7 and above."
+  },
+  {
+    "PROPER_NAME": "Advantage",
+    "NAMES": [
+      "advantage"
+    ],
+    "DESCRIPTION": "Prevents the next instance of turn-based Distance loss."
+  },
+  {
+    "PROPER_NAME": "Flashbang Trap",
+    "NAMES": [
+      "flashbang trap",
+      "flashbang_trap"
+    ],
+    "DESCRIPTION": "When you play 2 Skills in a turn, apply Mark to all enemies."
+  },
+  {
+    "PROPER_NAME": "Poison Trap",
+    "NAMES": [
+      "poison trap",
+      "poison_trap"
+    ],
+    "DESCRIPTION": "When you play 3 Attacks in a turn, apply Poison to all enemies."
+  },
+  {
+    "PROPER_NAME": "Acid Trap",
+    "NAMES": [
+      "acid trap",
+      "acid_trap"
+    ],
+    "DESCRIPTION": "When you play 2 cards in a turn, remove Artifact from all enemies, and apply Poison, Weak, and Vulnerable."
+  },
+  {
+    "PROPER_NAME": "Bear Trap",
+    "NAMES": [
+      "bear trap",
+      "bear_trap"
+    ],
+    "DESCRIPTION": "When you lose 4 Distance in a turn, apply Weak and Vulnerable to all enemies."
+  },
+  {
+    "PROPER_NAME": "Explosive Trap",
+    "NAMES": [
+      "explosive trap",
+      "explosive_trap"
+    ],
+    "DESCRIPTION": "When you gain 4 Distance in a turn, deal damage to ALL enemies."
+  },
+  {
+    "PROPER_NAME": "Fence Trap",
+    "NAMES": [
+      "fence trap",
+      "fence_trap"
+    ],
+    "DESCRIPTION": "When your Block is broken, gain Block and 1 Blur."
+  },
+  {
+    "PROPER_NAME": "Marked Trap",
+    "NAMES": [
+      "marked trap",
+      "marked_trap"
+    ],
+    "DESCRIPTION": "When you go a turn without being attacked, ALL enemies lose HP equal to their Mark."
+  },
+  {
+    "PROPER_NAME": "Trap Trap",
+    "NAMES": [
+      "trap trap",
+      "trap_trap"
+    ],
+    "DESCRIPTION": "When you activate a #yTrap, fill your #yTrap slots with random #yTraps."
+  },
+  {
+    "PROPER_NAME": "Trap",
+    "NAMES": [
+      "trap",
+      "traps"
+    ],
+    "DESCRIPTION": "Placed in a Trap Slot. Activates when certain conditions are met."
+  }
+]

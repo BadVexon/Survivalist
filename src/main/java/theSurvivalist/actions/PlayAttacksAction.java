@@ -1,0 +1,44 @@
+package theSurvivalist.actions;
+
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.utility.NewQueueCardAction;
+import com.megacrit.cardcrawl.actions.utility.QueueCardAction;
+import com.megacrit.cardcrawl.actions.utility.UnlimboAction;
+import com.megacrit.cardcrawl.actions.utility.WaitAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+
+public class PlayAttacksAction extends AbstractGameAction {
+
+    public PlayAttacksAction() {
+        this.duration = Settings.ACTION_DUR_FAST;
+        this.actionType = ActionType.WAIT;
+        this.source = AbstractDungeon.player;
+    }
+
+    public void update() {
+        if (this.duration == Settings.ACTION_DUR_FAST) {
+            if (!AbstractDungeon.player.hand.isEmpty()) {
+                for (AbstractCard card : AbstractDungeon.player.hand.group) {
+                    if (card.type == AbstractCard.CardType.ATTACK) {
+                        AbstractDungeon.getCurrRoom().souls.remove(card);
+                        card.freeToPlayOnce = true;
+                        AbstractDungeon.player.limbo.group.add(card);
+                        AbstractMonster target = AbstractDungeon.getRandomMonster();
+                        card.applyPowers();
+                        AbstractDungeon.actionManager.addToTop(new NewQueueCardAction(card, target));
+                        AbstractDungeon.actionManager.addToTop(new UnlimboAction(card));
+                        if (!Settings.FAST_MODE) {
+                            AbstractDungeon.actionManager.addToTop(new WaitAction(Settings.ACTION_DUR_MED));
+                        } else {
+                            AbstractDungeon.actionManager.addToTop(new WaitAction(Settings.ACTION_DUR_FASTER));
+                        }
+                    }
+                }
+            }
+            this.isDone = true;
+        }
+    }
+}

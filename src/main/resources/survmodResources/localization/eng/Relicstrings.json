@@ -1,0 +1,73 @@
+{
+  "survmod:Longbow": {
+    "NAME": "Longbow",
+    "FLAVOR": "The last thing they'll never see.",
+    "DESCRIPTIONS": [
+      "Start each combat with #b1 additional #yDistance. NL While in Long Range, gain #b3 #yStrength. NL While in Close Range, lose #b1 #yStrength."
+    ]
+  },
+  "survmod:GoodBoy": {
+    "NAME": "Good Boy",
+    "FLAVOR": "He's only the best boy in the whole wide world? Isn't he?! Yes he is!",
+    "DESCRIPTIONS": [
+      "The first time you play an #yAttack each turn, ALL enemies lose HP equal to their Mark."
+    ]
+  },
+  "survmod:SharpenedDagger": {
+    "NAME": "Sharpened Dagger",
+    "FLAVOR": "Good for skinning beasts, whittling new arrows, or slicing someone that gets too close.",
+    "DESCRIPTIONS": [
+      "Gain #b3 #yStrength while in #yClose #yRange."
+    ]
+  },
+  "survmod:ShotGlass": {
+    "NAME": "Shot Glass",
+    "FLAVOR": "A reimagined spyglass strapped to the side of your bow. Doubles as a drink holder...?",
+    "DESCRIPTIONS": [
+      "Cards with 'shot' in the name deal #b3 additional damage."
+    ]
+  },
+  "survmod:TrapManual": {
+    "NAME": "Trap Manual",
+    "FLAVOR": "You should never forget the manual for your complex machinery.",
+    "DESCRIPTIONS": [
+      "Whenever you make #b3 #yTraps, gain #b1 #yTrap slot."
+    ]
+  },
+  "survmod:SignalFlare": {
+    "NAME": "Signal Flare",
+    "FLAVOR": "Not really it's intended use, but to survive, you've got to improvise.",
+    "DESCRIPTIONS": [
+      "The first time you apply #b10 #yMarked each turn, gain [E] ."
+    ]
+  },
+  "survmod:IronskinOutfit": {
+    "NAME": "Ironskin Outfit",
+    "FLAVOR": "It may slow you down, but it gives you a different kind of survivability...",
+    "DESCRIPTIONS": [
+      "When you receive attack damage in Close Range, gain #b5 #yPlated #yArmor. Lose #b1 more #yDistance at the start of each turn."
+    ]
+  },
+  "survmod:RunningShoes": {
+    "NAME": "Running Shoes",
+    "FLAVOR": "You ought to move at a higher velocity than normal.",
+    "DESCRIPTIONS": [
+      "The first time you gain #yDistance each turn, increase the #yDistance gained by #b1."
+    ]
+  },
+  "survmod:InnateMutation": {
+    "NAME": "Innate Mutation",
+    "FLAVOR": "A symbol of ever-shifting and adaptation to your surroundings.",
+    "DESCRIPTIONS": [
+      "The first time you draw a #yStatus or #rCurse card each turn, draw #b1 card."
+    ]
+  },
+  "survmod:AdvancedEvolution": {
+    "NAME": "Advanced Evolution",
+    "FLAVOR": "When you're pushed to your limit, you start to go beyond what you thought was possible...",
+    "DESCRIPTIONS": [
+      "Replaces ",
+      "[]. Whenever you draw a #yStatus or #rCurse card, draw #b1 card. The first time you draw a #yStatus or #rCurse card in a turn, gain [E]."
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "survmod:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "survmod:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block. NL Gain 1 survmod:Distance."
+  },
+  "survmod:Adaptability": {
+    "NAME": "Adaptability",
+    "DESCRIPTION": "Whenever a survmod:Trap is Activated, draw !M! card.",
+    "UPGRADE_DESCRIPTION": "Whenever a survmod:Trap is Activated, draw !M! cards."
+  },
+  "survmod:BearTrap": {
+    "NAME": "Bear Trap",
+    "DESCRIPTION": "Make a survmod:Bear_Trap with !M! Weak and Vulnerable."
+  },
+  "survmod:DuckAndFlare": {
+    "NAME": "Duck and Flare",
+    "DESCRIPTION": "Gain !B! Block. NL Add !M! *Flare into your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Add !M! *Flares into your hand."
+  },
+  "survmod:ExplosiveTrap": {
+    "NAME": "Explosive Trap",
+    "DESCRIPTION": "Make an survmod:Explosive_Trap with !M! damage."
+  },
+  "survmod:FenceTrap": {
+    "NAME": "Fence Trap",
+    "DESCRIPTION": "Make a survmod:Fence_Trap with !M! Block."
+  },
+  "survmod:FindCover": {
+    "NAME": "Find Cover",
+    "DESCRIPTION": "Can only be played at Long Range. NL Gain !M! Intangible. NL ALL enemies gain 1 Intangible."
+  },
+  "survmod:Flare": {
+    "NAME": "Flare",
+    "DESCRIPTION": "Apply !M! Mark. NL Draw 1 card."
+  },
+  "survmod:HailOfArrows": {
+    "NAME": "Hail of Arrows",
+    "DESCRIPTION": "Deal !D! damage to a random enemy X times. NL Lose 1 survmod:Distance.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to a random enemy X+1 times. NL Lose 1 survmod:Distance."
+  },
+  "survmod:FlashbangTrap": {
+    "NAME": "Flashbang Trap",
+    "DESCRIPTION": "Make a survmod:Flashbang_Trap with !M! Mark."
+  },
+  "survmod:FocusedFire": {
+    "NAME": "Focused Fire",
+    "DESCRIPTION": "Deal !D! damage 3 times."
+  },
+  "survmod:LongShot": {
+    "NAME": "Long Shot",
+    "DESCRIPTION": "Can only be played at Long Range. NL Deal !D! damage."
+  },
+  "survmod:MarkedShot": {
+    "NAME": "Marked Shot",
+    "DESCRIPTION": "Deal !D! damage. NL ALL enemies lose HP equal to their Mark."
+  },
+  "survmod:MarkTrap": {
+    "NAME": "Marked Trap",
+    "DESCRIPTION": "Make a survmod:Marked_Trap."
+  },
+  "survmod:NockAnArrow": {
+    "NAME": "Nock an Arrow",
+    "DESCRIPTION": "Deal !D! damage. NL If an enemy has Mark, gain [E] and draw 1 card."
+  },
+  "survmod:PinningSnipe": {
+    "NAME": "Pinning Snipe",
+    "DESCRIPTION": "Can only be played at Long Range. NL Deal !D! damage. NL Apply !M! Weak."
+  },
+  "survmod:PoisonTrap": {
+    "NAME": "Poison Trap",
+    "DESCRIPTION": "Make a survmod:Poison_Trap with !M! Poison."
+  },
+  "survmod:QuickDash": {
+    "NAME": "Quick Dash",
+    "DESCRIPTION": "Can only be played at Close Range. NL Gain !B! Block. NL Apply !M! Weak. NL Gain 2 survmod:Distance. NL Gain 2 survmod:Advantage."
+  },
+  "survmod:SimpleMutation": {
+    "NAME": "Simple Mutation",
+    "DESCRIPTION": "If the enemy intends to attack, gain !B! Block. NL Otherwise, gain !M! Artifact and deal !D! damage. NL Add 1 *Injury into your discard pile."
+  },
+  "survmod:SkillfulManeuver": {
+    "NAME": "Skillful Maneuver",
+    "DESCRIPTION": "Gain 2 survmod:Distance. Next turn, gain [E] . NL Add 2 Dazed into your discard pile.",
+    "UPGRADE_DESCRIPTION": "Gain 2 survmod:Distance. Next turn, gain [E] [E] . NL Add 2 Dazed into your discard pile."
+  },
+  "survmod:Sprint": {
+    "NAME": "Sprint",
+    "DESCRIPTION": "Gain 3 survmod:Distance. NL Draw 1 card. NL Add 1 Dazed into your discard pile."
+  },
+  "survmod:SurpriseTrap": {
+    "NAME": "Surprise Trap",
+    "DESCRIPTION": "Make a random survmod:Trap."
+  },
+  "survmod:SwiftKick": {
+    "NAME": "Swift Kick",
+    "DESCRIPTION": "Can only be played at Close Range. NL Deal !D! damage. NL Apply !M! Vulnerable. NL Gain 2 Advantage."
+  },
+  "survmod:TwinShot": {
+    "NAME": "Twin Shot",
+    "DESCRIPTION": "Deal !D! damage to a random enemy twice. NL Lose 2 survmod:Distance."
+  },
+  "survmod:UnfortunateEscape": {
+    "NAME": "Unfortunate Escape",
+    "DESCRIPTION": "Gain !B! Block. NL Add 2 *Slimed into your hand."
+  },
+  "survmod:VersatileDefense": {
+    "NAME": "Versatile Defense",
+    "DESCRIPTION": "Has different effects depending on your survmod:Distance."
+  },
+  "survmod:VersatileOffense": {
+    "NAME": "Versatile Offense",
+    "DESCRIPTION": "Has different effects depending on your survmod:Distance."
+  },
+  "survmod:ComplexMutation": {
+    "NAME": "Complex Mutation",
+    "DESCRIPTION": "Effect varies based on enemy Intent. NL Exhaust."
+  },
+  "survmod:AcidArrow": {
+    "NAME": "Acid Arrow",
+    "DESCRIPTION": "Remove the enemy's Block. NL Remove all Artifact. NL Apply 4 Poison, !M! Weak, and !M! Vulnerable."
+  },
+  "survmod:FlareBarrage": {
+    "NAME": "Flare Barrage",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Mark to ALL enemies X times. NL Lose X survmod:Distance."
+  },
+  "survmod:TakeAim": {
+    "NAME": "Take Aim",
+    "DESCRIPTION": "Next turn, your next Attack deals !M! additional damage. NL Lose 1 survmod:Distance."
+  },
+  "survmod:AcidTrap": {
+    "NAME": "Acid Trap",
+    "DESCRIPTION": "Make an survmod:Acid_Trap with !M! Poison."
+  },
+  "survmod:AimForTheLiver": {
+    "NAME": "Aim For The Liver",
+    "DESCRIPTION": "Deal !D! damage. NL Whenever you Activate a Trap, increase this card's damage by !M! this combat."
+  },
+  "survmod:PiercingShot": {
+    "NAME": "Piercing Shot",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Lose 1 survmod:Distance."
+  },
+  "survmod:Heartseeker": {
+    "NAME": "Heartseeker",
+    "DESCRIPTION": "Can only be played at Long Range. NL Deal !D! damage. NL Skip your next turn. NL Exhaust."
+  },
+  "survmod:EscapeMechanism": {
+    "NAME": "Escape Mechanism",
+    "DESCRIPTION": "Whenever a Trap is Activated, gain 2 survmod:Distance."
+  },
+  "survmod:Exploit": {
+    "NAME": "Exploit",
+    "DESCRIPTION": "Whenever a Trap is Activated, gain [E] .",
+    "UPGRADE_DESCRIPTION": "Whenever a Traip is Activated, gain [E] [E] ."
+  },
+  "survmod:BendAndBow": {
+    "NAME": "Bend and Bow",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block. NL Lose 2 survmod:Distance."
+  },
+  "survmod:FlareQuiver": {
+    "NAME": "Flare Quiver",
+    "DESCRIPTION": "Whenever you play an Attack, apply 4 Mark."
+  },
+  "survmod:FlashbangShot": {
+    "NAME": "Flashbang Shot",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Mark to ALL enemies."
+  },
+  "survmod:GoForFace": {
+    "NAME": "Go for Face!",
+    "DESCRIPTION": "At the start of your turn, deal !M! damage to the enemy with the highest HP."
+  },
+  "survmod:Hawkeye": {
+    "NAME": "Hawkeye",
+    "DESCRIPTION": "Apply double Mark this turn."
+  },
+  "survmod:HiddenTactic": {
+    "NAME": "Hidden Tactic",
+    "DESCRIPTION": "Can only be played while in Long Range. NL Gain 1 Intangible. NL Draw !M! cards. NL Lose 3 survmod:Distance."
+  },
+  "survmod:MarkedFromAfar": {
+    "NAME": "Marked from Afar",
+    "DESCRIPTION": "Can only be played while in Long Range. NL Deal !D! damage. NL ALL enemies lose HP equal to their Mark twice. NL Lose 1 survmod:Distance.",
+    "UPGRADE_DESCRIPTION": "Can't be played in Close Range. NL Deal !D! damage. NL ALL enemies lose HP equal to their Mark twice. NL Lose 1 survmod:Distance."
+  },
+  "survmod:Marksmanship": {
+    "NAME": "Marksmanship",
+    "DESCRIPTION": "Whenever you apply Mark, increase the amount applied by !M!."
+  },
+  "survmod:OverexertingShot": {
+    "NAME": "Overexerting Shot",
+    "DESCRIPTION": "Deal !D! damage. NL Add 2 Wounds into your hand. NL Lose 1 survmod:Distance."
+  },
+  "survmod:PerfectPosition": {
+    "NAME": "Perfect Position",
+    "DESCRIPTION": "Can't be played at Close Range. NL Ethereal. NL Deal !D! damage. NL Gain !B! Block. NL Add a *Perfect *Position into your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Can't be played at Close Range. NL Deal !D! damage. NL Gain !B! Block. NL Add a *Perfect *Position+ into your hand. NL Exhaust."
+  },
+  "survmod:PersonalMark": {
+    "NAME": "Personal Mark",
+    "DESCRIPTION": "Can only be played at Close Range. NL ALL enemies lose HP equal to their Mark. NL Take !M! damage. NL Gain 2 survmod:Distance."
+  },
+  "survmod:RejectWeakness": {
+    "NAME": "Reject Weakness",
+    "DESCRIPTION": "Exhaust all Status and Curse cards in your hand. NL Draw 1 card for each."
+  },
+  "survmod:ShrapnelTraps": {
+    "NAME": "Shrapnel Traps",
+    "DESCRIPTION": "Whenever you activate a survmod:Trap, gain !M! Temporary Thorns."
+  },
+  "survmod:TacticalManeuver": {
+    "NAME": "Tactical Maneuver",
+    "DESCRIPTION": "Either gain or lose 3 survmod:Distance. NL Shuffle 1 *Dazed into your discard pile."
+  },
+  "survmod:TrapTrap": {
+    "NAME": "Trap Trap",
+    "DESCRIPTION": "Make a survmod:Trap_Trap. NL Exhaust."
+  },
+  "survmod:DesperateAmbush": {
+    "NAME": "Desperate Ambush",
+    "DESCRIPTION": "Deal damage equal to your survmod:Distance X times. NL Lose all survmod:Distance. NL You can't gain survmod:Distance next turn.",
+    "UPGRADE_DESCRIPTION": "Deal damage equal to your survmod:Distance 2X times. NL Lose all survmod:Distance. NL You can't gain survmod:Distance next turn."
+  },
+  "survmod:TrickShot": {
+    "NAME": "Trick Shot",
+    "DESCRIPTION": "Deal !D! damage to a random enemy. NL If they don't intend to attack, deal !D! damage to a random enemy."
+  },
+  "survmod:WalledOffTraps": {
+    "NAME": "Walled-Off Traps",
+    "DESCRIPTION": "Whenever you activate a survmod:Trap, gain !M! Block."
+  },
+  "survmod:ConcussiveShot": {
+    "NAME": "Concussive Shot",
+    "DESCRIPTION": "Deal !D! damage. NL Stun the enemy. NL Lose 3 survmod:Distance. NL Exhaust."
+  },
+  "survmod:MutantEnergy": {
+    "NAME": "Mutant Energy",
+    "DESCRIPTION": "Whenever you draw a Curse or Status card, gain [E] ."
+  },
+  "survmod:ChokingBow": {
+    "NAME": "Choking Bow",
+    "DESCRIPTION": "Can only be played while in Close Range. NL Deal !D! damage. NL Stun the enemy for 1 turn. NL You can no longer play Attacks this turn. NL Exhaust."
+  },
+  "survmod:Decoy": {
+    "NAME": "Decoy",
+    "DESCRIPTION": "Lose 1 Trap Slot. NL Prevent the next time you would lose HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Lose 1 Trap Slot. NL Prevent the next time you would lose HP."
+  },
+  "survmod:UnleashTheTraps": {
+    "NAME": "Unleash the Traps",
+    "DESCRIPTION": "Ethereal. NL Activate all survmod:Traps. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Ethereal. NL Activate all survmod:Traps."
+  },
+  "survmod:KnowThyEnemy": {
+    "NAME": "Know Thy Enemy",
+    "DESCRIPTION": "Gain !M! Block for each Mark on the enemy. NL Remove the enemy's Mark."
+  },
+  "survmod:MutantForm": {
+    "NAME": "Mutant Form",
+    "DESCRIPTION": "Ethereal. NL Gain !M! Flight. NL While Flying, you can't gain Block and don't lose survmod:Distance at the start of your turn."
+  },
+  "survmod:ExpertSniper": {
+    "NAME": "Expert Sniper",
+    "DESCRIPTION": "At the start of your turn, if you're in Long Range, your first attack deals !M! extra damage."
+  },
+  "survmod:MarkedForDeath": {
+    "NAME": "Marked for Death",
+    "DESCRIPTION": "Enemy loses HP equal to 3 times their Mark. NL Remove the enemy's Mark. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Enemy loses HP equal to 3 times their Mark. NL Remove the enemy's Mark."
+  },
+  "survmod:RobFromTheRich": {
+    "NAME": "Rob From The Rich",
+    "DESCRIPTION": "Can only be played while in Close Range. NL Deal !D! damage. NL Gain !M! Gold for each point of unblocked damage dealt. NL Exhaust."
+  },
+  "survmod:QuickThinking": {
+    "NAME": "Quick Thinking",
+    "DESCRIPTION": "Can only be played while in Close Range. NL Draw !M! cards and reduce their costs by 1 this turn. NL Gain 2 survmod:Distance. NL Gain 2 survmod:Advantage."
+  },
+  "survmod:CloseCombat": {
+    "NAME": "Close Combat",
+    "DESCRIPTION": "Each time you enter Close Range, gain !M! Strength and Dexterity."
+  },
+  "survmod:Camouflage": {
+    "NAME": "Camouflage",
+    "DESCRIPTION": "The first time you enter Long Range each turn, gain 1 Intangible."
+  },
+  "survmod:EmptyQuiver": {
+    "NAME": "Empty Quiver",
+    "DESCRIPTION": "Play all Attacks in your hand. NL Add !M! *Wounds into your draw pile. NL You can't gain survmod:Distance next turn."
+  },
+  "survmod:MercifulShot": {
+    "NAME": "Merciful Shot",
+    "DESCRIPTION": "Can only be played in Long Range. NL If the enemy has at least 50% of its health, it loses 33% of its health. NL Otherwise, deal !D! damage. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Can only be played in Long Range. NL If the enemy has at least 50% of its health, it loses 33% of its health. NL Otherwise, deal !D! damage. NL Exhaust."
+  },
+  "survmod:DeadlyAim": {
+    "NAME": "Deadly Aim",
+    "DESCRIPTION": "Next turn, Attacks deal 8 additional damage and trigger Mark. Exhaust."
+  },
+  "survmod:VersatilePower": {
+    "NAME": "Versatile Power",
+    "DESCRIPTION": "Effect changes with survmod:Distance."
+  },
+  "survmod:NeedleShot": {
+    "NAME": "Needle Shot",
+    "DESCRIPTION": "Deal !D! damage. NL Remove all enemy Block. NL Apply 3 Vulnerable. NL Lose 1 survmod:Distance."
+  },
+  "survmod:LeapingShot": {
+    "NAME": "Leaping Shot",
+    "DESCRIPTION": "Deal !D! damage. NL Gain 3 survmod:Distance. NL Shuffle 3 *Dazed into your draw pile."
+  },
+  "survmod:BatteringStrike": {
+    "NAME": "Battering Strike",
+    "DESCRIPTION": "Can only be played in Close Range. NL Deal !D! damage. NL Gain !B! Block. NL Gain 2 survmod:Distance. NL Shuffle 3 *Dazed into your draw pile."
+  },
+  "survmod:Deadeye": {
+    "NAME": "Deadeye",
+    "DESCRIPTION": "If you're in Long Range, deal double damage next turn."
+  },
+  "survmod:Detonation": {
+    "NAME": "Detonation",
+    "DESCRIPTION": "Double an enemy's Mark. NL Next turn, at the end of the enemy turn, ALL enemies lose HP equal to their Mark. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Double an enemy's Mark. NL Next turn, at the end of the enemy turn, ALL enemies lose HP equal to twice their Mark. NL Exhaust."
+  },
+  "survmod:PenetratingShot": {
+    "NAME": "Penetrating Shot",
+    "DESCRIPTION": "Can only be played at Long Range. NL Deal !D! damage. NL If the enemy has Mark, apply 2 Vulnerable."
+  },
+  "survmod:OverwhelmingAssault": {
+    "NAME": "Overwhelming Assault",
+    "DESCRIPTION": "While in Close Range, attacks apply !M! Weak."
+  },
+  "survmod:CloseCall": {
+    "NAME": "Close Call",
+    "DESCRIPTION": "Can only be played in Close Range. NL Gain !B! Block, increased by missing HP. NL Next turn, gain 3 Distance. NL Exhaust."
+  }
+}
