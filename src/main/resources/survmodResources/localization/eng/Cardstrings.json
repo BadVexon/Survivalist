@@ -154,7 +154,7 @@
   "survmod:Exploit": {
     "NAME": "Exploit",
     "DESCRIPTION": "Whenever a Trap is Activated, gain [E] .",
-    "UPGRADE_DESCRIPTION": "Whenever a Traip is Activated, gain [E] [E] ."
+    "UPGRADE_DESCRIPTION": "Whenever a Trap is Activated, gain [E] [E] ."
   },
   "survmod:BendAndBow": {
     "NAME": "Bend and Bow",
