@@ -4,11 +4,9 @@ import basemod.abstracts.CustomRelic;
 import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import theSurvivalist.SurvivalMod;
-import theSurvivalist.actions.DistanceAction;
 import theSurvivalist.util.TextureLoader;
 
 import static theSurvivalist.SurvivalMod.makeRelicOutlinePath;
@@ -29,7 +27,7 @@ public class SharpenedDagger extends CustomRelic {
     }
 
     public void onExitCloseRange() {
-        addToBot(new ReducePowerAction(AbstractDungeon.player, AbstractDungeon.player, StrengthPower.POWER_ID, -3));
+        addToBot(new ReducePowerAction(AbstractDungeon.player, AbstractDungeon.player, StrengthPower.POWER_ID, 3));
     }
 
     @Override
