@@ -20,15 +20,15 @@ public class SensoryStoneTextPatch {
     )
     public static void Insert(SensoryStone obj, ArrayList<String> memories) {
         String MEMORY_TEXT =
-                "(Yellow text)SURVIVE.(/Yellow text) NL" +
+                "#ySURVIVE. NL " +
 
-                "Your bow holds steady, your eyes not leaving the creature’s sight as it runs towards you. You fire a flare into the beast’s side, then turn and run into the distance. NL" +
+                "Your bow holds steady, your eyes not leaving the creature’s sight as it runs towards you. You fire a flare into the beast’s side, then turn and run into the distance. NL " +
 
-                "Tree branches fall around you, as a (red shaky text)blast(/red shaky text) erupts from where you once stood. After picking yourself up, you turn to see the gaping maw still charging, enraged. NL" +
+                "Tree branches fall around you, as a #rblast erupts from where you once stood. After picking yourself up, you turn to see the gaping maw still charging, enraged. NL " +
 
-                "You hold your arms up, which erupt in pain as the skin hardens to a metallic shape, causing the beast to (red shaky text?)break(/red shaky text) its teeth upon you. Another burst of pain as the skin turns (green shaky text)toxic(/green shaky text), and the beast falls back with a thud. NL" +
+                "You hold your arms up, which erupt in pain as the skin hardens to a metallic shape, causing the beast to #r@break@ its teeth upon you. Another burst of pain as the skin turns #g~toxic~, and the beast falls back with a thud. NL " +
 
-                "These creatures had been going further and further from the Spire. It was time to put an end to it. NL";
+                "These creatures had been going further and further from the Spire. It was time to put an end to it.";
         memories.add(MEMORY_TEXT);
     }
 
