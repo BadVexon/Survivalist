@@ -122,7 +122,7 @@ public class SurvivalMod implements
 
     @Override
     public void receiveEditCharacters() {
-        BaseMod.addCharacter(new TheSurvivor("the Bandit", TheSurvivor.Enums.THE_SURVIVOR),
+        BaseMod.addCharacter(new TheSurvivor("the Survivalist", TheSurvivor.Enums.THE_SURVIVOR),
                 CHARSELECT_BUTTON, CHARSELECT_PORTRAIT, TheSurvivor.Enums.THE_SURVIVOR);
     }
 
