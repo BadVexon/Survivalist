@@ -19,6 +19,7 @@ public class VersatilePower extends AbstractSurvivorCard {
         if (showCard) {
             cardsToPreview = new VersatilePower(false);
         }
+         cardsToPreview = new MartialDefense(true); new ThornyTrail(true); new FlaredArrowheads(true)
     }
 
     @Override
