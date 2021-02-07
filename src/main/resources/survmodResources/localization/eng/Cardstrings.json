@@ -109,11 +109,13 @@
   },
   "survmod:VersatileDefense": {
     "NAME": "Versatile Defense",
-    "DESCRIPTION": "Has different effects depending on your survmod:Distance."
+    "DESCRIPTION": "Has different effects depending on your survmod:Distance. NL In Close Range, is *Bob and Weave. NL In Mid Range, is *Leaping Dodge. NL In Long Range, is *Hide and Wait."
+    "UPGRADE_DESCRIPTION": "Has different effects depending on your survmod:Distance. NL In Close Range, is *Bob and Weave+. NL In Mid Range, is *Leaping Dodge+. NL In Long Range, is *Hide and Wait+."
   },
   "survmod:VersatileOffense": {
     "NAME": "Versatile Offense",
-    "DESCRIPTION": "Has different effects depending on your survmod:Distance."
+    "DESCRIPTION": "Has different effects depending on your survmod:Distance. NL In Close Range, is *Hit And Run. NL In Mid Range, is Power Shot. NL In Long Range, is *Flared Shot."
+    "UPGRADE_DESCRIPTION": "Has different effects depending on your survmod:Distance. NL In Close Range, is *Hit And Run+. NL In Mid Range, is Power Shot+. NL In Long Range, is *Flared Shot+."
   },
   "survmod:ComplexMutation": {
     "NAME": "Complex Mutation",
@@ -301,7 +303,8 @@
   },
   "survmod:VersatilePower": {
     "NAME": "Versatile Power",
-    "DESCRIPTION": "Effect changes with survmod:Distance."
+    "DESCRIPTION": "Effect changes with survmod:Distance. NL In Close Range, is *Martial Defense. NL In Mid Range, is *Thorny Trail. NL In Long Range, is *Flared Arrowheads."
+    "UPGRADE_DESCRIPTION": "Effect changes with survmod:Distance. NL In Close Range, is *Martial Defense+. NL In Mid Range, is *Thorny Trail+. NL In Long Range, is *Flared Arrowheads+."
   },
   "survmod:NeedleShot": {
     "NAME": "Needle Shot",
