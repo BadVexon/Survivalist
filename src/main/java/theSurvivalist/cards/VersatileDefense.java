@@ -20,6 +20,7 @@ public class VersatileDefense extends AbstractSurvivorCard {
         if (showCard) {
             cardsToPreview = new VersatileDefense(false);
         }
+         cardsToPreview = new BobandWeave(true); new LeapingDodge(true); new HideandWait(true)
     }
 
 
