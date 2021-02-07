@@ -19,6 +19,7 @@ public class VersatileOffense extends AbstractSurvivorCard {
         if (showCard) {
             cardsToPreview = new VersatileOffense(false);
         }
+        cardsToPreview = new HitAndRun(true); new PowerShot(true); new FlaredShot(true)
     }
 
     @Override
